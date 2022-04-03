@@ -33,7 +33,7 @@ The link might look different for you and will have your username in place of En
 
 
 <li>Now create a text file named <i>your_name.txt</i> inside the <b>Git1</b> folder. Add your details like <ul><li>name</li> <li>registration number</li><li>branch</li> <li>your hobbies</li> </ul>Now save the file.</li> 
-For reference see the file [ravindra_nag.txt](ravindra_nag.txt) in the Git1 folder.
+For reference see the file ravindra_nag.txt in the Git1 folder.
 <br/>
 <br/>
 
