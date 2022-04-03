@@ -11,4 +11,6 @@ Head over to https://git-scm.com/downloads to download and install git for your 
 ## What is GitHub?
 GitHub is a for-profit company that offers a cloud-based Git repository hosting service. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration. 
 
+###  You can refer to [this playlist](https://youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR) to learn all the basics of git and github.
+
 ## Get into [Git1](./Git1/) folder to find instructions to completing the first task
