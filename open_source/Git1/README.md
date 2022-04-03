@@ -32,7 +32,9 @@ The link might look different for you and will have your username in place of En
 <br/>
 
 
-<li>Now create a text file named <i>your_name.txt</i> inside the <b>Git1</b> folder. Add your details like name registration number, you hobbies etc. and save the file.</li> 
+<li>Now create a text file named <i>your_name.txt</i> inside the <b>Git1</b> folder. Add your details like <ul><li>name</li> <li>registration number</li><li>branch</li> <li>your hobbies</li> </ul>Now save the file.</li> 
+For reference see the file [ravindra_nag.txt](ravindra_nag.txt) in the Git1 folder.
+<br/>
 <br/>
 
 <li>Now in the gitbash type <code>git add .</code> . This command adds all the changes you make to a staging area. This includes changes made in existing files as well as any new files that you create. Running the git add command does not change any of your work in the Git repository. Changes are only made to your repository when you execute the git commit command. </li>
