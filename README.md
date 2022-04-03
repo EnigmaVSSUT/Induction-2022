@@ -52,5 +52,5 @@ __Non-Tech Induction (Graphic Designing, Video Editing, Content Writing) to star
 
 <hr>
 
-Wishing you all the best! 🙌🏼
+Wishing you all the best! <br>
 Team Enigma
