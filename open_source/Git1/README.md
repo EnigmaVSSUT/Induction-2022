@@ -19,10 +19,6 @@ Now that you have your own copy of the repository it's time to make a copy of it
 
  
 <ol>
-<li>Go to the folder you'd like to make the copy of the repository and open git bash.
-
-This can be done by right clicking inside the folder and selecting the "Git Bash here" option. You must have git installed in order for this command to show up in the menu.  </li>
-<br/>
 
 <li>Now go to your forked repository, click on clone and copy the repo address. This will be used to clone the repository to your local system. </li>
 <img src="assets/i2.png">
@@ -30,15 +26,22 @@ This can be done by right clicking inside the folder and selecting the "Git Bash
 The link might look different for you and will have your username in place of EnigmaVSSUT.
 <br/>
 <br/>
+ 
+ <li>Go to the folder you'd like to make the copy of the repository and open git bash.
+This can be done by right clicking inside the folder and selecting the "Git Bash here" option. You must have git installed in order for this command to show up in the menu.  </li>
+<br/>
+Type the command <code>git clone <i>copied_repo_address</i></code>
+<br/>
+<br/>
 
 
-<li>Now create a text file named <i>your_name.txt</i> inside the <b>Git1</b> folder. Add your details like <ul><li>name</li> <li>registration number</li><li>branch</li> <li>your hobbies</li> </ul>Now save the file.
+<li>Now create a text file named <i>your_name.txt</i> inside the <code><b>open_source/Git1</b></code> folder. Add your details like <ul><li>name</li> <li>registration number</li><li>branch</li> <li>your hobbies</li> </ul>Now save the file.
  
 For reference see the file [ravindra_nag.txt](ravindra_nag.txt) in the Git1 folder.
 <br/>
 <br/>
 
-<li>Now in the gitbash type <code>git add .</code> . This command adds all the changes you make to a staging area. This includes changes made in existing files as well as any new files that you create. Running the git add command does not change any of your work in the Git repository. Changes are only made to your repository when you execute the git commit command. </li>
+<li>Close any previous gitbash windows and open a new gitbash inside the newly cloned Induction-2022 folder. Then type <code>git add .</code> . This command adds all the changes you make to a staging area. This includes changes made in existing files as well as any new files that you create. Running the git add command does not change any of your work in the Git repository. Changes are only made to your repository when you execute the git commit command. </li>
 <br/>
 
 <li>Now to commit these changes, type <code>git commit –m "git task 1 completed" </code> in the gitbash.  The commit message must contain useful information as to what changes you've made so that it is easier for others to understand what your code does. </li>
