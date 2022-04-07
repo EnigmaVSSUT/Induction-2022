@@ -43,7 +43,7 @@ jobs:
         # The GitHub repository containing the issue or pr.
 #         repository: # optional, default is ${{ github.repository }}
         # Number of the pull request
-#         pullRequestNumber: # optional, default is ${{ github.event.pull_request.number }}
+        pullRequestNumber: ${{ github.event.pull_request.number }}
         # SHA of the pull request commit
 #         sha: # optional, default is ${{ github.event.pull_request.head.sha }}
         # Merge strategy
