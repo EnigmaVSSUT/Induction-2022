@@ -5,16 +5,8 @@ name: merge
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
-  workflow_dispatch:
-    # Inputs the workflow accepts.
-    inputs:
-      name:
-        # Friendly description to be shown in the UI instead of 'name'
-        description: 'Person to greet'
-        # Default value if no value is explicitly provided
-        default: 'World'
-        # Input has to be provided for the workflow to run
-        required: true
+  label: merge
+    
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -43,7 +35,7 @@ jobs:
         # The GitHub repository containing the issue or pr.
 #         repository: # optional, default is ${{ github.repository }}
         # Number of the pull request
-        pullRequestNumber: 182
+#         pullRequestNumber: ${{ github.event.pull_request.head.sha }}
         # SHA of the pull request commit
 #         sha: # optional, default is ${{ github.event.pull_request.head.sha }}
         # Merge strategy
