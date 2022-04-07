@@ -1,0 +1,13 @@
+name: automerge
+on: workflow_dispatch
+
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    steps:
+      - id: automerge
+        name: automerge
+        uses: "pascalgn/automerge-action@v0.15.2"
+        env:
+          MERGE_LABELS: "approved,!check again"
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
