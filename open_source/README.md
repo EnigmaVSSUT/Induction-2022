@@ -14,3 +14,5 @@ GitHub is a for-profit company that offers a cloud-based Git repository hosting 
 ###  You can refer to [this playlist](https://youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR) to learn all the basics of git and github.
 
 ## Get into [Git1](./Git1/) folder to find instructions to completing the first task
+
+## Get into [Git2](./Git2/) folder to find instructions to completing the second task
