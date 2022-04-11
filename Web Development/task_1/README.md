@@ -1,6 +1,6 @@
 # Web Development Task-1
 
-1. First of all, pull the repository to update your local repository
+1. First of all, pull the upstream repository(like you did in Open Source Task-2) to update your local repository
 2. Design a webpage having a photo gallery using flexbox or grid and make it a responsive site. You can design it, according to your creativity.
 3. You can use images in the photo gallery, as per your own choice.
 4. Next, you have to host your website on your GitHub Account. Click [here](https://youtu.be/QyFcl_Fba-k) to learn how to host a website in GitHub.
