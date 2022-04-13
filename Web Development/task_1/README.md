@@ -2,6 +2,10 @@
 
 1. First of all, pull the upstream repository(like you did in Open Source Task-2) to update your local repository
 2. Design a webpage having a photo gallery using flexbox or grid and make it a responsive site. You can design it, according to your creativity.
+    **To know more about Flexbox and grid, you can refer the links below:-**
+    * [Grid](https://web.dev/learn/css/grid/)
+    * [Flex](https://web.dev/learn/css/flexbox/)
+    * [Responsive Design](https://web.dev/learn/design/)
 3. You can use images in the photo gallery, as per your own choice.
 4. Next, you have to host your website on your GitHub Account. Click [here](https://youtu.be/QyFcl_Fba-k) to learn how to host a website in GitHub.
 5. After completion of the above steps, make a folder of `Your Name` inside the `Web Development/task_1/` folder. Your folder path should look like `Induction-2022/Web Development/task_1/Your_Name`.
@@ -12,11 +16,15 @@ The folder `Induction-2022/Web Development/task_1/Pallav/` is uploaded for refer
 7. Finally commit your changes and create a pull request along with the URL of your webpage hosted in the description section of the Pull request.
 
 ## Deadline
-14th April - 11:59 PM
+15th April - 11:59 PM
 
-## Example
+## Examples
 
-![sample](Pallav/sample_ss.png)
+Example-1
+![sample](Pallav/sample.gif)
+Example-2
+![sample](Pallav/sample-2.gif)
+
 <div style="padding: 5px 10px; background: #000; border-radius: 8px;">
 <p>Notes:</p>
 <ol>
