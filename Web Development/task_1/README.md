@@ -20,9 +20,9 @@ The folder `Induction-2022/Web Development/task_1/Pallav/` is uploaded for refer
 
 ## Examples
 
-Example-1
-![sample](Pallav/sample.gif)
-Example-2
+Example-1<br>
+![sample](Pallav/sample.gif)<br>
+Example-2<br>
 ![sample](Pallav/sample-2.gif)
 
 <div style="padding: 5px 10px; background: #000; border-radius: 8px;">
