@@ -6,12 +6,17 @@
     align-items: center;
 }
 .item{
-    height: 240px;
-    width: 400px;
+    height: 210px;
+    width: 340px;
     padding: 5px;
 }
 .heading{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    font-size: x-large;
+    flex-wrap: wrap;
+    font-size: xx-large;
+}
+h1{
+    margin: 10px;
 }
