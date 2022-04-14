@@ -32,9 +32,11 @@ The first part of the induction you have to perform task on **basics of Git & Gi
     - [Task-1: Git Basics-I](./open_source/Git1/)<br>
     - [Task-2: Git Basics-II](./open_source/Git2/)
 <br>
-## Week-2 (10 - 16 April) | Web Development 🧑🏻‍💻
+## Week-2 (11 - 18 April) | Web Development 🧑🏻‍💻
 Second week will be a walk around on one of the most popular technologies of modern world, Web Development. You will be learning the basics of web development, the languages like HTML, CSS, JavaScript and others to come on the way.<br>
-    - Task: **Coming Soon!**
+    * [Introduction & Resources](./Web%20Development/README.md)<br>
+    - [Task-1: HTML CSS](./Web%20Development/task_1/)<br>
+    - Task-2: Javascript (coming soon!)
 <br>
 
 ## Week-3 (17 - 23 April) | Competitive Programming & Python :woman_technologist:
