@@ -45,6 +45,7 @@ Video Tutorials:
 **To know more about Flexbox and grid, you can refer the links below:-**
 * [Grid](https://web.dev/learn/css/grid/)
 * [Flex](https://web.dev/learn/css/flexbox/)
+* [Responsive Design](https://web.dev/learn/design/)
 
 Go through the video tutorials mentioned in the above links.Make sure that you go through the notes and resources provided to you. Once you have grasped the basic concepts you can start designing websites of your choice. Check the resources available online and explore the field of web development. Some of the websites where you can learn more about web development are:
 * [W3Schools](https://www.w3schools.com/)
