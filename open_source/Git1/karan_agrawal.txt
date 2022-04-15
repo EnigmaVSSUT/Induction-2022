@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+
+=======
+Karan Agrawal
+2102070123
+Electronics and Telecommunication
+Playing Badminton
+Domain of interest:.Competitive Coding and web development
+>>>>>>> 8a9f1ac7388bacf29d305a8e1c2236c7e26f0b3c
