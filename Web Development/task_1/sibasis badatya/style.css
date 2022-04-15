@@ -1,0 +1,49 @@
+.divmain1{
+    display: grid;
+    background-color: chartreuse;
+    height: 600px;
+    width: 1000px;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 5px solid red;
+}
+
+.div1{
+    
+  background-image: url("1.jpg");
+   border: 2px solid black;
+   grid-column-start: 1;
+   grid-column-end: 3;
+}
+
+.div2{
+   
+   background-image: url("2.jpg");
+    border: 2px solid black;
+    }
+
+.div3{
+    
+ background-image: url("3.jpg");
+   border: 2px solid black;
+}
+
+.div4{
+ background-image: url("4.jpg");
+ border: 2px solid black;
+
+}
+
+
+
+.div5{
+   
+  background-image: url("5.jpg");
+   border: 2px solid black;
+   grid-column-start: 1;
+   grid-column-end: 4;
+ 
+}
+   
