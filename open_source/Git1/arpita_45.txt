@@ -1,4 +1,5 @@
 Name-Arpita Tripathy
 Regd no-2102070048
 Branch-Electronics and telecommunication
-Hobbies-Art 
+Hobbies-painting,reading 
+domain-web developement,competitive coding
