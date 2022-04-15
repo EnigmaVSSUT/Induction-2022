@@ -1,80 +1,53 @@
- *
- {
-    box-sizing : border-box;
- }
-
-
- body 
-{
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgba(142, 135, 135, 0.219)
-    
-}
-
-h1
-{
-    text-align: center;
-}
-
-p
-{
-    text-align: center;
-}
-
-button
-{
-    align-items: center;
-}
-
-.header
-{
+    background-color: rgba(171, 171, 171, 0.819);
+  }
+  
+  .header {
     text-align: center;
     padding: 32px;
-    font-size: large;
-    
-}
-
-h1
-{
-    font-weight: bold;
-    font-size: 60px;
-}
-
-.row 
-{
+  }
+  
+  .row {
     display: -ms-flexbox; /* IE 10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE 10 */
     flex-wrap: wrap;
     padding: 0 4px;
-}
-
-.column 
-{
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
     -ms-flex: 50%; /* IE 10 */
     flex: 50%;
     padding: 0 4px;
-    
-}
+  }
   
-.column img 
-{
+  .column img {
     margin-top: 8px;
     vertical-align: middle;
-}
-
-.container
-{
-    width: 300px;  
-    height: 300px;  
-    border: 5px;  
-    display: grid;  
-}
-
-button
-{
-    font-size: 25px;  
-    margin: auto;  
-} 
-
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
