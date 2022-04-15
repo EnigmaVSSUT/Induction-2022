@@ -1,0 +1,21 @@
+
+h1{
+    color:azure;
+    background-color: red;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    
+}
+div{
+    display:flex;
+    justify-content: center;
+    border-bottom: 10px double red;
+    border-top:10px double red;
+    border-left:10px double red;
+    border-right:10px double red;
+
+}
+p{
+    color:blueviolet;
+}
