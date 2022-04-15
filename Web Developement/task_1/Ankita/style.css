@@ -1,0 +1,55 @@
+
+    .header{
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+        color:black;
+        font-family: cursive;
+        
+    
+    } 
+    .item{
+        height: 140px;
+        width: 100px;
+        padding: 5px;
+    }
+    .books{
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    main {
+        background-color:cornsilk;
+        
+    }
+    @media screen and  (max-width:800px)  
+{
+    .iteam{
+        flex: 50%;
+        padding: 0px 10px;
+    }
+    .iteam1{
+        flex-grow: 2;
+    }
+
+}
+
+@media  screen and (max-width:600px) {
+    .iteam{
+        flex: 100%;
+        padding: 0px 10px;
+    }
+
+}
+@media  screen and (max-width:400px) {
+    .iteam{
+        flex: 150%;
+        padding: 0px 10px;
+        
+    }
+
+}
+
+ 
