@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 3, 3);
+}
+.image-gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+.image-gallery img{
+    flex-wrap: wrap;
+    width: 320px;
+    height: 300px;
+    margin: 10px 0;
+}
+h1{
+    text-decoration: double;
+    text-align: center;
+    color: azure;
+    text-decoration-color: rgba(172, 175, 176, 0.968);
+}
