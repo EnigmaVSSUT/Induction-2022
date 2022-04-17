@@ -1,4 +1,5 @@
-Sugyani Manjari Dash
-Information Technology 
-2102081031
-coding,exploring newthings,working on my innovative ideas
+Name-Sugyani Manjari Dash
+Branch-Information Technology 
+Registration number-2102081031
+Hobbies-coding,exploring newthings,working on my innovative ideas
+Domain Of Interest-Competitive Programming,Web Development,App Development,Cyber Security
