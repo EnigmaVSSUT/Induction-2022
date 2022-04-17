@@ -30,3 +30,27 @@ p{
     color: rgb(0, 0, 0);
     
 }
+@media (min-width: 1200px){
+}
+@media (max-width: 990px){
+.container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+}
+
+
+
+
+@media (max-width: 600px){
+.container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+}
