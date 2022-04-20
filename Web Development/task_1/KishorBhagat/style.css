@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(230 230 230);
+}
 .container{
     display: flex;
     flex-direction: row;
@@ -8,7 +11,13 @@
 .item{
     height: 210px;
     width: 340px;
-    padding: 5px;
+    margin: 6px;
+    border: 8px solid white;
+    box-shadow: 4px 4px 5px rgb(118, 116, 116);
+}
+.item:hover {
+    transform: scale(1.015);
+    transition: 0.3s;
 }
 .heading{
     display: flex;
