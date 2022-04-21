@@ -14,7 +14,7 @@ In this task there are two players **PLAYER_1** and **PLAYER_2** .They will be r
 
 But here is a twist ...
 
-1.If score will exceed the goal then the recently generated score will be discarded.
+1. If score will exceed the goal then the recently generated score will be discarded.
 
     Example:
 	
