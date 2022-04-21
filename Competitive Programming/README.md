@@ -52,5 +52,7 @@ If you have decided to go forward with CP, then here are a few steps to go about
 [HackerEarth](https://www.hackerearth.com/practice/codemonk/)
 
 
+#### We have created a list of beginner-friendly problems for you to practice. Open the [Practice](./Practice/) folder to find them.
+
 
                       ________________________________BEST OF LUCK ____________________________
