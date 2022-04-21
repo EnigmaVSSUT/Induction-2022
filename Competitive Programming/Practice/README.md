@@ -1,5 +1,7 @@
 # Practice Questions.
 
+You can attempt these problems in one go if you want to :)
+
 ## Day 1 :white_check_mark:
 
 Click on Questions below :point_down:
@@ -65,4 +67,4 @@ Click on Questions below :point_down:
 - [Question 5](https://codeforces.com/problemset/problem/493/D)
 
 
-#### N.B : Your final Competitive Programming Contest will be held on `24.04.2022` on the basis of which you will be marked in the Induction Process. Make sure you attend it positively. Further timing of the Contest will be notified to you on our Discord Channel. So keep practicing & Stay Tuned!
+#### N.B : Your final Competitive Programming Contest will be held on `24.04.2022` on the basis of which you will be marked in the Induction Process. Make sure you attend it positively. Further timing of the Contest will be notified to you on our Discord Channel. So keep practicing & stay tuned!
