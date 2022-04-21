@@ -30,7 +30,7 @@ Click on Questions below :point_down:
 
 - [Question 4](https://codeforces.com/problemset/problem/1343/A)
 
-- [Question 4](https://codeforces.com/problemset/problem/61/A)
+- [Question 5](https://codeforces.com/problemset/problem/61/A)
 
 
 ## Day 3 :white_check_mark:
