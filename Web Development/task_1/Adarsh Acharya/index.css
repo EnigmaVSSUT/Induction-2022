@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(1-732.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#con {
+    width: 60vw;
+    height: 100vh;
+    flex-direction: column;
+    padding: 5rem 0 5rem 0;
+}
+
+#fir {
+    width: 30rem;
+    height: 10rem;
+    background-color: rgb(97, 250, 250);
+    background-image: url(superman1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0.5rem;
+
+}
+
+#sec {
+    width: 30rem;
+
+}
+
+#secfir {
+    width: 20rem;
+    height: 100%;
+    flex-direction: column;
+    margin-right: 0.5rem;
+
+}
+
+#secsec {
+    width: 10rem;
+    height: 20rem;
+    background-color: red;
+    background-image: url(ironman1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#a {
+    width: 100%;
+    height: 50%;
+
+}
+
+#black {
+    width: 20rem;
+    height: 10rem;
+    margin-top: 0.5rem;
+    background-color: brown;
+    background-image: url(blackpanther1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#yell,
+#blue {
+    width: 10rem;
+    height: 10rem;
+    background-color: rebeccapurple;
+
+}
+
+#yell {
+    background-color: blanchedalmond;
+    margin-right: 0.5rem;
+    background-image: url(thor1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#blue {
+    background-image: url(captainamerica1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width:800px) {
+    #sec {
+        flex-direction: column;
+    }
+
+    #a {
+        flex-direction: column;
+    }
+
+    #black {
+        width: 10rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    #secsec {
+        height: 10rem;
+    }
+
+    #fir {
+        width: 10rem;
+    }
+
+    #secfir {
+        margin-right: 0;
+    }
+
+    #yell {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    #blue {
+        margin-bottom: 0.5rem;
+    }
+}

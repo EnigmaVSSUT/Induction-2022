@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(120, 119, 127);
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap:5px;
+    grid-auto-rows:minmax(200px,auto);
+    grid-auto-columns:minmax(50px,auto);
+}
+img{
+    width:100%;
+    border-radius:15px;
+
+}
+.food{
+    padding:10px;
+    background-color:rgb(255, 255, 255);
+    
+}
+p{
+    text-align : center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    
+}
+@media (min-width: 1200px){
+}
+@media (max-width: 990px){
+.container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+}
+
+
+
+
+@media (max-width: 600px){
+.container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+}

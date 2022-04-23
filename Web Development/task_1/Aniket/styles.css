@@ -1,0 +1,87 @@
+.container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.container .heading{
+    width: 50%;
+    padding-bottom: 30px;
+    color: rgb(245, 245, 240);
+  }
+.container .heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(248, 248, 246);
+  }
+  
+.container .heading h3 span{
+    font-weight: 100;
+  }
+.container .Images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    object-fit: cover;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+.container .Images .box{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.image1{
+    height: 616px;
+}
+.container .Images .box img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.imageB{
+    align-self: top;
+    height: 300px;
+}
+@media only screen and (max-width: 870px){
+    .image{
+        flex-basis: 50%;
+
+   flex-direction: column;
+   padding-left: 16px;
+   padding-right: 16px;
+  }
+
+  .container .Images .box{
+    width: 47%;
+    justify-self: center; 
+  }
+  .container .Images .box3{
+    flex-direction: column;
+
+    flex: 50%;
+  }
+}
+@media only screen and (max-width: 560px){
+    .image{
+   flex-direction: column;
+   padding-left: 16px;
+   padding-right: 16px;
+  }
+
+  .container .Images .box{
+    width: 100%; }
+}
+
+img:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
