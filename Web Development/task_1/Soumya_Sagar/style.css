@@ -1,0 +1,65 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+*{
+  background-color: black;
+}
+
+h1{
+  font-family: Comic Sans;
+  text-align: center;
+  color: rgba(255, 230, 0, 0.73);
+}
+
+.column {
+  flex: 20%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 98%;
+  transition: all .3s ease;
+}
+
+.column img:hover{
+  transform: scale(90%);
+  filter: opacity(50%);
+}
+
+.footer p{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+  color: yellow;
+  text-align: center;
+  margin: 20px 20px;
+}
+
+.footer a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: yellow;
+  text-decoration: solid;
+}
+
+.footer a:hover{
+  color: yellowgreen;
+  transition: .2s ease-in-out;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 48%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 96%;
+  }
+} 

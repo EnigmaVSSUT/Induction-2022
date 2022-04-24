@@ -1,0 +1,58 @@
+.header{
+    background-color: #094067;
+    color: #dc1e14;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 30px 0;
+}
+
+.players{
+    display: flex;
+    flex-wrap: wrap;
+}
+.players img{
+    min-width: 19%;
+    margin: 5px;
+
+}
+
+@media screen and (max-width:860px) {
+    .players img{
+        min-width: 30%;
+    }
+    .header{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:650px){
+    .header{
+        font-size: 20px;
+    }
+    .players img{
+        min-width: 45%;
+    }
+}
+@media screen and (max-width:540px){
+    .header{
+        font-size: 15px;
+        height: 40px;
+    }
+}
+@media screen and (max-width:440px){
+    .header{
+        font-size: 10px;
+        height: 25px;
+    }
+    .players{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:270px){
+    .header{
+        font-size: 6px;
+        height: 15px;
+    }
+} 
