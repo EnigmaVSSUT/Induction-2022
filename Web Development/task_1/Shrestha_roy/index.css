@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    width:100vw;
+    heigt:100vh;
+    flex-direction: column;
+    bckground-image: url(1-732.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+#con{
+    width: 60vw;
+    heiht: 100vh;
+    flex-direction: column;
+    padding: 5rem 0 5rem 0;
+}
+#fir{
+    width: 30rem;
+    height: 30rem;
+    background-color: aqua;
+    background-image: url(41a36465835b896027a67d6dc5ada7ef.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0.5rem;
+    
+}
+#sec{
+    width: 30rem;
+    
+}
+#secfir{
+    width: 20rem;
+    heiht: 100%;
+    flex-direction: column;
+    margin-right: 0.5rem;
+    
+}
+#secsec{
+    width: 10rem;
+    height: 40rem;
+    background-color: red;
+    background-image: url(bea6f3b96828e774674a473fd3f11341.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+#a{
+    width: 100%;
+    hight: 50%;
+    
+}
+#black{
+    width: 20rem;
+    height: 30rem;
+    margin-top: 0.5rem;
+    background-color: brown;
+    background-image: url(MV5BMTdiNDIyMGEtNWJjMi00ODlhLWJhM2EtYjJjMjFlMjNhNDEwXkEyXkFqcGdeQXVyODg3NDc1OTE@._V1_FMjpg_UX1000_.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+#yell,#blue{
+    width: 10rem;
+    height: 10rem;
+    background-color: rebeccapurple;
+    
+}
+#yell{
+    background-color:blanchedalmond;
+    margin-right: 0.5rem;
+    background-image: url(maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#blue{
+    background-image: url(mickey-mouse-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+}
+@media (max-width:800px){
+#sec{
+    flex-direction: column;
+}
+#a{
+    flex-direction: column;
+}
+#black{
+    width: 10rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+#secsec{
+    height: 10rem;
+}
+#fir{
+    width: 10rem;
+}
+#secfir{
+    margin-right: 0;
+}#yell{
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+}
+#blue{
+    margin-bottom: 0.5rem;
+}
+}
