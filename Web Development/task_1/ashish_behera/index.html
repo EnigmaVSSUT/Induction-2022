@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        .rer{
+            text-align: center;
+            font-size: 38px;
+            font-weight: bolder;
+            font-style: inherit;
+            margin-bottom: 10px;
+            color: rgb(0, 0, 0);
+        }
+        .container {
+            border-color: rgb(252, 252, 252);
+            background-color: black;
+        }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      .column {
+        flex: 31%;
+        max-width: 33%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+      
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }</style>
+</head>
+
+<body>
+    <h3 id="rer" class="rer">PHOTO GALLERY</h3>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+              <img src="a.jpg">
+              <img src="b.jpg">
+              <img src="c.jpg">
+            </div>
+            <div class="column">
+              <img src="d.jpg">
+              <img src="e.jpg">
+              <img src="f.jpg" >
+              
+        
+            </div>
+            <div class="column">
+              <img src="h.jpg">
+              <img src="i.jpg">
+              <img src="g.jpg">
+
+            </div>
+            
+          </div>
+    </div>
+</body>
+
+</html>

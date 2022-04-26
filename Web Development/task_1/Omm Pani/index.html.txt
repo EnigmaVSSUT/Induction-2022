@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<body>
+    <header>
+        <div>
+            <img src="img\logo.png" alt="ipl logo">
+        </div>
+    </header>
+    <div class="container">
+        <div class="container1">
+            <div id="box1" class="box"><img src="img\CSK1.png" alt="csk"><h3>CHENNAI SUPER KINGS</h3><br><p>M.A. Chidambaram Stadium</p><br></div>
+            <div id="box2" class="box"><img src="img\DC1.png" alt="DC"><h3>DELHI CAPITALS</h3><br><p>Arun Jaitley Stadium</p><br></div>
+            <div id="box3" class="box"><img src="img\GT1.png "alt="GT"><h3>GUJARAT TITANS</h3><br><p>Narendra Modi Stadium</p><br></div>
+            <div id="box4" class="box"><img src="img\KKR1.png" alt="KKR"><h3>KOLKATA KNIGHT RIDERS</h3><br><p>Eden Gardens Stadium</p><br></div>
+        </div>
+        <div class="container2">
+            <div id="box5" class="box"><img src="img\LSG1.png" alt="LSG"><h3>LUCKNOW SUPER GIANTS</h3><br><p>BRSABV Ekana Cricket Stadium</p><br></div>
+            <div id="box6" class="box"><img src="img\MI1.png" alt="MI"><h3>MUMBAI INDIANS</h3><br><p>Wankhede Stadium</p><br></div>
+            <div id="box7" class="box"><img src="img\PBKS1.png" alt="PBKS"><h3>PUNJAB KINGS</h3><br><p>IS Bhindra Stadium</p><br></div>
+            <div id="box8" class="box"><img src="img\RCB1.png" alt="RCB"><h3>ROYAL CHALENGERS BANGALORE</h3><br><p>M. Chinnaswami Stadium</p><br></div>
+        </div>
+        <div class="container3">
+            <div id="box9" class="box"><img src="img\SRH1.png" alt="SRH"><h3>SUNRISERS HYDERABAD</h3><br><p>Rajiv Gandhi Intl. Stadium</p><br></div>
+            <div id="box10" class="box"><img src="img\RR1.png" alt="RR"><h3>RAJASTHAN ROYALS</h3><br><p>Sawai Mansingh Stadium</p><br></div>
+        </div>
+    </div>
+    <footer>
+            <div class="sponser">TITLE SPONSER</div>
+            <img src="img\tata-logo.png" alt="tata-logo">
+    </footer>
+    
+</body>
+</html>
