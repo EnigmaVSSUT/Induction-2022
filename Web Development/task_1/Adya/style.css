@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+.column{
+    display: grid;
+    
+}
+
+body{
+    margin: 2;
+    
+    background-color:whitesmoke;
+}
+header{
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    margin-top: 0px;
+    
+    
+    background-color:whitesmoke;
+}
+  header p{
+    color:rgb(0, 0, 0);
+    /*border: 8px solid whitesmoke;*/
+    padding: 6px;
+    padding-top: 8px;
+    display: inline-block;
+   text-decoration: underline black 4px;
+     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: 600;
+    font-size: 50px;
+    
+}
+.row{
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px 4px;
+}
+
+.column{
+    flex: 30%;
+    padding: 5px 20px;
+    
+    border: orangered;
+}
+.column img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 1rem;
+    box-shadow:  5px 5px 10px rgba(120, 112, 112, 0.922); 
+    
+}
+
+.dld1{
+    height: 339.6px;
+    width: 339.6px;
+    box-shadow: 6px rgb(243, 233, 233);
+  
+}
+
+   
+
+.dld2{
+    height: 339.6px;
+    width: 339.6px;
+}
+.dld{
+    height: 339.6px;
+    width: 339.6px;
+}
+.dld3{
+    height: 339.6px;
+    width: 339.6px;
+}
+.dld4{
+    height: 339.6px;
+    width: 339.6px;
+}
+.dld6{
+    height: 339.6px;
+    width: 339.6px;
+}
+.img1{
+    height: 339.6px;
+    width: 339.6px;
+}
+.img2{
+    height: 339.6px;
+    width: 339.6px;
+}
+.img4{
+    height: 339.6px;
+    width: 339.6px;
+}
+.img10{
+    height: 339.6px;
+    width: 339.6px;
+}
+.img12{
+    height: 339.6px;
+    width: 339.6px;
+}
+.img14{
+    height: 339.6px;
+    width: 339.6px;
+}
+.img13{
+    height: 339.6px;
+    width: 339.6px;
+}
+
+
+@media screen and  (max-width:800px)  {
+    .column{
+        flex: 50%;
+        padding: 0px 10px;
+    }
+    
+}
+
+@media  screen and (max-width:600px) {
+    .column{
+        flex: 100%;
+        padding: 0px 10px;
+    }
+    
+}

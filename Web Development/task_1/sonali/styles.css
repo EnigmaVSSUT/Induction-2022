@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    height: 420px;
+    width: 550px;
+    padding: 8px;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: xx-large;
+}
+h1{
+    margin: 10px;
+}

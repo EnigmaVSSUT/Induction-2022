@@ -1,0 +1,44 @@
+
+img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.container {
+    column-count: 4;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: gainsboro;
+    padding: 30px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        column-count: 3;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        column-count: 2;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        column-count: 1;
+    }
+
+}
+
+ /* img:hover {
+    transform: scale(4);
+    transition: 5s;
+
+} */
