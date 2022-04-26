@@ -20,7 +20,6 @@ while True:
             scr2 += dice2
         if scr1 > t:
             scr1 -= dice1
-
         if scr2 > t:
             scr2 -= dice2
         print(f"{p1}'s Score: {scr1}\n{p2}'s Score: {scr2}")
