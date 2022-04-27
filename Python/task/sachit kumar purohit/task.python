@@ -1,0 +1,24 @@
+import random
+score1=0
+score2=0
+target = int(input("Enter the target\n"))
+while (score1<target) and (score2<target):
+    input("player 1-press enter to roll the dice")
+    dice1=int(random.randint(1,6))
+    score1=score1+dice1
+    print(dice1)
+    if score1> target :
+        score1=score1-dice1
+    if score1==target :
+        print("Player 1 you won the game")
+        break
+    input("Player 2-press enter to roll the dice")
+    dice2=int(random.randint(1,6))
+    dice2=score2+dice2
+    print(dice2)
+    if score2>target :
+        score2=score2-dice2
+    if score2==target :
+        print("Player 2 you won the game")
+        break
+
