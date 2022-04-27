@@ -1,0 +1,50 @@
+h1{
+    font-family: 'Ms Madi', cursive;
+    font-size: 3em ;
+    margin-bottom: 20px ;
+    margin-top: 16px;
+    color:  rgb(215, 176, 231);
+}
+.container{
+    background-color: rgb(85, 12, 116);
+    height: 100px;
+    display:flex;
+    margin: auto;
+    justify-content: center; 
+}
+.content{
+    background-color:  rgb(215, 176, 231);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.column1{
+    flex-flow: column wrap;
+    display: flex;
+     margin-top: auto;
+}
+.column2{
+    display: flex;
+    margin-top: 10px;
+}
+.column3{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 10px;
+}
+.column4{
+    display: flex;
+    flex-flow: column wrap;
+     margin-bottom: 10px;
+}
+.column5{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.column6{
+    display: flex;
+    flex-flow: column wrap;
+     margin-top: 5px;
+    margin-bottom: 5px;
+}
