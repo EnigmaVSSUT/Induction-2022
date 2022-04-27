@@ -1,0 +1,27 @@
+.container h1{
+     text-align: center;
+     font-size: 30px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.gallery-area{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.single-img{
+    padding: 0 20px 20px;
+
+}
+img:hover{
+    opacity: .5;
+    transition: .9s;
+}
+h1{
+    background-color: aqua;
+}

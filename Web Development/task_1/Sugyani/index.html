@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Created By sugyani -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive flexbox Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- Header -->
+<div class="header">
+    <h1>Responsive Image Grid</h1>
+    <p>Resize the browser window to see the responsive effect</p>
+  </div>
+  <div class="wrapper">
+    <!-- filter Items -->
+    <nav>
+
+        <div class="items">
+         <span class="item active" data-name="all">All</span>
+         <span class="item" data-name="rose">rose</span>
+        <span class="item" data-name="jasmine">jasmine</span>
+        <span class="item" data-name="lotus">lotus</span>
+        <span class="item" data-name="sunflower">sunflower</span>
+        <span class="item" data-name="daisy">daisy</span>
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="rose"><span><img src="rose1.jpg" alt="rose flower"></span></div>
+      <div class="image" data-name="jasmine"><span><img src="jasmine1.jpg" alt="jasmine flower"></span></div>
+      <div class="image" data-name="lotus"><span><img src="lotus1.jpg" alt="lotus flower"></span></div>
+      <div class="image" data-name="sunflower"><span><img src="sunflower1.jpg" alt="sunflower flower"></span></div>
+      <div class="image" data-name="daisy"><span><img src="daisy1.jpg" alt="daisyflower"></span></div>
+      <div class="image" data-name="rose"><span><img src="rose2.jpg" alt="rose flower"></span></div>
+      <div class="image" data-name="sunflower"><span><img src="sunflower2.jpg" alt="sunflower flower"></span></div>
+      <div class="image" data-name="lotus"><span><img src="lotus2.jpg"alt="lotus flower"></span></div>
+      <div class="image" data-name="jasmine"><span><img src="jasmine2.jpg"alt="jasmine flower"></span></div>
+      <div class="image" data-name="daisy"><span><img src="daisy2.jpg"alt="daisy flower"></span></div>
+      <div class="image" data-name="rose"><span><img src="rose3.jpg"alt="rose flower"></span></div>
+      <div class="image" data-name="rose"><span><img src="rose4.jpg"alt="rose flower"></span></div>
+      <div class="image" data-name="rose"><span><img src="rose5.jpg"alt="rose flower"></span></div>
+      <div class="image" data-name="jasmine"><span><img src="jasmine3.jpg"alt="jasmine flower"></span></div>
+      <div class="image" data-name="jasmine"><span><img src="jasmine4.jpg"alt="jasmine flower"></span></div>
+      <div class="image" data-name="jasmine"><span><img src="jasmine5.jpg"alt="jasmine flower"></span></div>
+      <div class="image" data-name="lotus"><span><img src="lotus3.jpg"alt="lotus flower"></span></div>
+      <div class="image" data-name="lotus"><span><img src="lotus4.jpg"alt="lotus flower"></span></div>
+      <div class="image" data-name="lotus"><span><img src="lotus5.jpg"alt="lotus flower"></span></div>
+      <div class="image" data-name="daisy"><span><img src="daisy3.jpg"alt="daisyflower"></span></div>
+      <div class="image" data-name="daisy"><span><img src="daisy4.jpg"alt="daisy flower"></span></div>
+      <div class="image" data-name="daisy"><span><img src="daisy5.jpg"alt="daisyflower"></span></div>
+      <div class="image" data-name="sunflower"><span><img src="sunflower3.jpg"alt="sunflower"></span></div>
+      <div class="image" data-name="sunflower"><span><img src="sunflower4.jpg"alt="sunflower"></span></div>
+      <div class="image" data-name="sunflower"><span><img src="sunflower5.jpg"alt="sunflower"></span></div>
+      
+    </div>
+  
+  </div>
+
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+  <script src="script.js"></script>
+  
+</body>
+</html>
