@@ -2,4 +2,8 @@ ilina pradhan
 information technology
 2102081039
 eating and traveling
+<<<<<<< HEAD
+web development , open source , cyber security , competitive coding
+=======
 open source , cyber security , web development , competitive coding
+>>>>>>> f9eb3f86c2be72c2e9548b807605e509496876b3
