@@ -1,2 +1,0 @@
-if z<int(goal):
-     
