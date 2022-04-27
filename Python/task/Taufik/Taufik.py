@@ -2,53 +2,52 @@ import random
 from random import randint
 import time
 
-playerName = input("Enter the name of player 1 ")
-playerName1 = input("Enter the name of player 2 ")
+P1 = input("1st player is ")
+P2 = input("2nd player is ")
 
 
 def diceRoll(num_sides=6):
-    """Returns number between 1 and 6 (inclusive)"""
     return random.randint(1, num_sides)
 
 
 def playGameOfDice(playername):
-    a = int(input("Enter a score to reach to win the game : "))
-    print("Hello,Welcome to game of dice! First to ", a, "points wins!")
-    player1Score = 0
-    player2Score = 0
-    while player1Score != a and player2Score != a:
-        print("The current score is: ", playerName,
-              player1Score, ",", playerName1, player2Score)
+    a = int(input("Enter the winning score : "))
+    # print("Hello,Welcome to game of dice! First to ", a, "points wins!")
+    score1 = 0
+    score2 = 0
+    while score1 != a and score2 != a:
+        print("The current score is: ", P1,
+              score1, ",", P2, score2)
         input("Press 'Enter' to roll.")
         player1Roll = diceRoll()
-        if(player1Score + player1Roll <= a):
-            player1Score = player1Score + player1Roll
+        if(score1 + player1Roll <= a):
+            score1 = score1 + player1Roll
         else:
-            player1Score = player1Score
+            score1 = score1
 
-        print("", playerName, "'s dice rolled to.......... "+str(player1Roll)+".")
+        print("", P1, "'s dice rolled to.......... "+str(player1Roll)+".")
         time.sleep(2)
         player2Roll = diceRoll()
-        if(player2Score+player2Roll <= a):
-            player2Score = player2Score + player2Roll
+        if(score2 + player2Roll<= a):
+            score2 = score2 + player2Roll
         else:
-            player2Score = player2Score
-        print("", playerName1, "'s dice rolled to.......... "+str(player2Roll)+".")
+            score2 = score2
+        print("", P2, "'s dice rolled to.......... "+str(player2Roll)+".")
         time.sleep(2)
 
-    if player1Score > player2Score:
-        print("Congrats!!", playerName, "wins the game")
-    elif (player1Score == player2Score):
+    if score1 > score2:
+        print("Congrats!!", P1, "wins the game")
+    elif (score1 == score2):
         print("The game is Tied")
     else:
-        print("Congrats!!", playerName1, "wins the game")
+        print(P2, "wins the game")
 
-    if (player1Score > player2Score):
+    if (score1 > score2):
         return True
     else:
         return False
 
 
-playerWins = playGameOfDice(playerName)
+playerWins = playGameOfDice(P1)
 if(playerWins == True):
     print("")
