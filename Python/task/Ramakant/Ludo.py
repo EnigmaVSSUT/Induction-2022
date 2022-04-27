@@ -58,7 +58,7 @@ while True:
             print(p2 + " Victory")
             print(p2 + " Better Luck Next Time")
         elif score2 > target:
-            score2-=rollOne
+            score2-=rollTwo
 
         #Print Score
         print(p2 + " Score " + str(score2))
