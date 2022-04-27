@@ -1,0 +1,21 @@
+body{
+    padding:10px;
+    
+}
+.wrapper{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap:5px;
+    grid-auto-rows:minmax(200px,auto);
+    grid-auto-columns:minmax(50px,auto);
+}
+img{
+    width:100%;
+    border-radius:20px;
+
+}
+.box{
+    padding:10px;
+    background-color:aquamarine;
+    
+}

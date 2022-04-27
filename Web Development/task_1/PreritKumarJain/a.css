@@ -1,0 +1,101 @@
+.head{
+    background-color: #22105b;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    font-size: 20px;
+    margin: auto;
+    color: antiquewhite;
+}
+body {
+    background-color: azure;
+}
+
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.pics img {
+    max-width: 32%;
+    /* margin: 10px 10px 10px 10px; */
+    margin: 0 0 10px 10px;    
+    left: 0px;  
+}
+
+@media screen and (max-width: 1300px) {
+    .pics img{
+        max-width: 48%;
+    }
+    .head {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .pics img{
+        max-width: 48%;
+    }
+    .head {
+        font-size: 20px;
+    }
+} 
+
+@media screen and (max-width: 1032px) {
+    .pics img{
+        max-width: 47%;
+    }
+    .head {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .pics img{
+        max-width: 100%;
+        margin: auto;
+    }
+    .pics {
+        justify-content: center;
+    }
+    .head {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pics img{
+        max-width: 100%;
+    }
+    .pics {
+        justify-content: center;
+    }
+    .head {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .pics img{
+        max-width: 100%;
+    }
+    .pics {
+        justify-content: center;
+    }
+    .head {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .pics img{
+        max-width: 100%;
+    }
+    .pics {
+        justify-content: center;
+    }
+    .head {
+        font-size: 12px;
+    }
+}
