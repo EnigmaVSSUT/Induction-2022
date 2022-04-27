@@ -13,7 +13,7 @@ def playGameOfDice(player1Name):
     t = int(input("Enter a score to reach to win the game : "))
     player1Score = 0
     player2Score = 0
-    while player1Score <= t or player2Score <= t: 
+    while player1Score != t and player2Score != t: 
         print("The current score is: ",player1Name, player1Score ,player2Name , player2Score)
         input("Press 'Roll' to roll the dice.")
         player1Roll = diceRoll()
