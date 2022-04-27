@@ -1,13 +1,15 @@
 import random
 import time
 
-print("Welcome to LUDO Lite")
+print("Welcome to LUDO Lite\n")
 time.sleep(2)
 print("Rules and Regulations\n*Press enter to roll the dice, when displayed your turn\n*Don't cheat by editing this code before a new game\n\n*Be patient, Trust on Luck\n")
 time.sleep(5)
 player1 = input("Name of Player 1 : ")
 player2 = input("Name of Player 2 : ")
-maxLimit = 50
+maxLimit = int(input("Enter Target Score : "))
+print("High Score : " + str(maxLimit))
+time.sleep(2)
 a = 0
 b = 0
 while True:
