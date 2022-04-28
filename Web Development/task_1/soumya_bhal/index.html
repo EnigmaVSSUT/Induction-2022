@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        .rer{
+            text-align: center;
+            font-size: 32px;
+            font-weight: bolder;
+            font-style: inherit;
+            margin-bottom: 10px;
+            color: rgb(0, 0, 0);
+        }
+        .container {
+            border-color: rgb(252, 252, 252);
+            background-color: black;
+        }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      .column {
+        flex: 31%;
+        max-width: 33%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+      
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }</style>
+</head>
+
+<body>
+    <h3 id="rer" class="rer">GALLERY</h3>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+              <img src="attack-titan-final-season-4-visual.jpg">
+              <img src="images.jpg" height="350px">
+              <img src="shingeki-no-kyojin-mikasa-ackerman-attack-titan-wallpaper.jpg" height="350px">
+            </div>
+            <div class="column">
+              <img src="36628.jpg">
+              <img src="439241838596070807_1564856916.jpg">
+              <img src="download.jpg" height="300px">
+              <img src="images (2).jpg" height="310px">
+        
+            </div>
+            <div class="column">
+              <img src="ygy.jpg.jpg">
+              <img src="shingeki-no-kyojin-mikasa-ackerman-attack-titan-wallpaper.jpg">
+              <img src="Mikasa-Attack-Titan-Attack-On-Titan-4k-Mikasa-Acke_640.jpg" height="770px">
+
+            </div>
+            
+          </div>
+    </div>
+</body>
+
+</html>
