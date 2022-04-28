@@ -1,26 +1,26 @@
 import random
-g=int(input("enter the goal"))
-s1=0
-s2=0
-c1=0
-c2=0
-i=1
-while(i>0):
-    c1=int(random.randint(1,6))
-    c2=int(random.randint(1,6))
-    print("score of player 1- {c1}  score of player 2- {c2}")
+target=int(input("Enter the target"))
+score1=0
+score2=0
+x=0
+y=0
+while True:
+    x=int(random.randint(1,6))
+    score1=score1+x
+    y=int(random.randint(1,6))
+    score2=score2+y
 
-    s1+=c1
-    s2+=c2
-    if (s1==g):
-        print("player 1 is the winner")
-        break
-    if(s1>g):
-        s1=s1-c1
+    if (score1>target):
+         score1=score1-x
+    if (score2>target):
+         score2=score2-y
+    if (score1==target):
+          print(f"Player 1 is the winner")
+          break
+    if (score2==target):
+         print(f"Player 2 is the winner")
+         break
 
-    if(s2==g):
-        print("player 2is the winner")
-        break
-    if(s2>g):
-        s2=s2-c2
+
+
     
