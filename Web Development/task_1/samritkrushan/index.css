@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    width:100vw;
+    heigt: 100vh;
+    flex-direction: column;
+    bckground-image: url(1-732.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+#con{
+    width: 150vw;
+    heiht: 120vh;
+    flex-direction: column;
+    padding: 5rem 0 5rem 0;
+}
+#fir{
+    width: 30rem;
+    height: 30rem;
+    background-color: aqua;
+    background-image: url(image2);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0.5rem;
+    
+}
+#sec{
+    width: 30rem;
+    
+}
+#secfir{
+    width: 30rem;
+    heiht: 100%;
+    flex-direction: column;
+    margin-right: 0.5rem;
+    
+}
+#secsec{
+    width: 30rem;
+    height: 30rem;
+    background-color: red;
+    background-image: url(image3);
+    background-position: center;
+    background-size: cover;
+    
+}
+#a{
+    width: 100%;
+    hight: 50%;
+    
+}
+#black{
+    width: 30rem;
+    height: 30rem;
+    margin-top: 0.5rem;
+    background-color: brown;
+    background-image: url(image4);
+    background-position: center;
+    background-size: cover;
+    
+}
+#black1{
+    width: 30rem;
+    height: 30rem;
+    margin-top: 0.5rem;
+    background-color: brown;
+    background-image: url(image6);
+    background-position: center;
+    background-size: cover;
+    
+}
+#yell,#blue{
+    width: 10rem;
+    height: 10rem;
+    background-color: rebeccapurple;
+    
+}
+#yell{
+    background-color:blanchedalmond;
+    margin-right: 0.5rem;
+    background-image: url(image5);
+    background-position: center;
+    background-size: cover;
+}
+#blue{
+    background-image: url(image1);
+    background-position: center;
+    background-size: cover;
+}
+@media (max-width:800px){
+#sec{
+    flex-direction: column;
+}
+#a{
+    flex-direction: column;
+}
+#black{
+    width: 10rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+#black1{
+    width: 10rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+#secsec{
+    height: 10rem;
+}
+#fir{
+    width: 10rem;
+}
+#secfir{
+    margin-right: 0;
+}#yell{
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+}
+#blue{
+    margin-bottom: 0.5rem;
+}
+}
