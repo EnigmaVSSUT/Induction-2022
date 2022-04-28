@@ -2,8 +2,8 @@ import random
 from random import randint
 import time
 
-player1Name = input("Please enter 1st player's name:")
-player2Name = input("Please enter 2nd player's name:")
+player1Name = input("Please enter player1 name:")
+player2Name = input("Please enter player2 name:")
 
 
 def diceRoll(num_sides=6):
