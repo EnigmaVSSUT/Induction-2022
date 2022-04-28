@@ -12,7 +12,7 @@ body{
     width:100vw;
     heigt: 100vh;
     flex-direction: column;
-    bckground-image: url(1-732.jpg);
+    background-image: url(1-732.jpg);
     background-position: center;
     background-size: cover;
     
@@ -96,36 +96,103 @@ body{
     background-position: center;
     background-size: cover;
 }
-@media (max-width:800px){
-#sec{
-    flex-direction: column;
-}
-#a{
-    flex-direction: column;
-}
-#black{
-    width: 10rem;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-}
-#black1{
-    width: 10rem;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-}
-#secsec{
-    height: 10rem;
-}
-#fir{
-    width: 10rem;
-}
-#secfir{
-    margin-right: 0;
-}#yell{
-    margin-right: 0;
-    margin-bottom: 0.5rem;
-}
-#blue{
-    margin-bottom: 0.5rem;
-}
-}
+@media (max-width:750px){
+    #sec{
+        flex-direction: column;
+    }
+    #a{
+        flex-direction: column;
+    }
+    #black{
+        width: 10rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+    #black1{
+        width: 10rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+    #secsec{
+        height: 10rem;
+    }
+    #fir{
+        width: 10rem;
+    }
+    #secfir{
+        margin-right: 0;
+    }#yell{
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+    #blue{
+        margin-bottom: 0.5rem;
+    }
+    }
+    @media (max-width:900px){
+        #sec{
+            flex-direction: column;
+        }
+        #a{
+            flex-direction: column;
+        }
+        #black{
+            width: 12rem;
+            margin-top: 0;
+            margin-bottom: 0.6rem;
+        }
+        #black1{
+            width: 12rem;
+            margin-top: 0;
+            margin-bottom: 0.6rem;
+        }
+        #secsec{
+            height: 12rem;
+        }
+        #fir{
+            width: 12rem;
+        }
+        #secfir{
+            margin-right: 0;
+        }#yell{
+            margin-right: 0;
+            margin-bottom: 0.6rem;
+        }
+        #blue{
+            margin-bottom: 0.6rem;
+        }
+    }
+    @media (max-width:600px){
+        #sec{
+            flex-direction: column;
+        }
+        #a{
+            flex-direction: column;
+        }
+        #black{
+            width: 8rem;
+            margin-top: 0;
+            margin-bottom: 0.4rem;
+        }
+        #black1{
+            width: 8rem;
+            margin-top: 0;
+            margin-bottom: 0.4rem;
+        }
+        #secsec{
+            height: 8rem;
+        }
+        #fir{
+            width: 8rem;
+        }
+        #secfir{
+            margin-right: 0;
+        }#yell{
+            margin-right: 0;
+            margin-bottom: 0.4rem;
+        }
+        #blue{
+            margin-bottom: 0.4rem;
+        }
+    }
+    
