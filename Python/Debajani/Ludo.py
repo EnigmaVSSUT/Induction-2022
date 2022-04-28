@@ -1,29 +1,29 @@
 import random
-goal=int(input("Enter the target"));
+target=int(input("Enter the target"));
 score1=0;
 score2=0;
-c1=0;c2=0;
+a=0;b=0;
 i=1;
 while(i>0):
 
-    c1=int(random.randint(1,6));
-    c2=int(random.randint(1,6));
-    print(f"Player 1 score: {c1} \nPlayer 2 score: {c2}");
+    a=int(random.randint(1,6));
+    b=int(random.randint(1,6));
+    print(f"Player1's score: {a} \n Player2's score: {b}");
 
-    score1=score1+c1;
-    score2=score2+c2;
-    if(score1==goal):
-      print("Player 1 Winner");
+    score1=score1+a;
+    score2=score2+b;
+    if(score1==target):
+      print("Player1 is the winner");
       break;
-    if(score1>goal):
-      score1=score1-c1;
+    if(score1>target):
+      score1=score1-a;
 
-    if(score2==goal):
-        print("Player 2 Winner");
+    if(score2==target):
+        print("Player2 is the winner");
         break;
-    if(score2>goal):
-        score2=score2-c2;
-    c1=0;c2=0;
+    if(score2>target):
+        score2=score2-b;
+    a=0;b=0;
     i=1;
 
 
