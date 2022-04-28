@@ -2,46 +2,43 @@ import random
 from random import randint
 import time
 
-playerName = input("Enter the name of player 1:")
-playerName1 = input("Enter the name of player 2: ")
+player1Name = input("Please enter 1st player's name:")
+player2Name = input("Please enter 2nd player's name:")
 
 
 def diceRoll(num_sides=6):
-    """Returns number between 1 and 6 (inclusive)"""
+
     return random.randint(1, num_sides)
 
 
-def playGameOfDice(playername):
-    a = int(input("Enter a score to reach to win the game : "))
-    print("Hello,Welcome to game of dice! First to ", a, "points wins!")
+def playGameOfDice(player1Name):
+    t = int(input("Enter a score to reach to win the game : "))
     player1Score = 0
     player2Score = 0
-    while player1Score != a and player2Score != a:
-        print("The current score is: ", playerName,
-              player1Score, ",", playerName1, player2Score)
-        input("Press 'Enter' to roll.")
+    while player1Score != t and player2Score != t:
+        print("The current score is: ", player1Name,
+              player1Score, player2Name, player2Score)
+        input("Press 'Enter' to roll the dice.")
         player1Roll = diceRoll()
-        if(player1Score + player1Roll <= a):
-            player1Score = player1Score + player1Roll
+        if(player1Score+player1Roll <= t):
+            player1Score = player1Score+player1Roll
         else:
             player1Score = player1Score
-
-        print("", playerName, "'s dice rolled to.......... "+str(player1Roll)+".")
+        print("", player1Name, "got number "+str(player1Roll)+".")
         time.sleep(2)
         player2Roll = diceRoll()
-        if(player2Score+player2Roll <= a):
-            player2Score = player2Score + player2Roll
+        if(player2Score+player2Roll <= t):
+            player2Score = player2Score+player2Roll
         else:
             player2Score = player2Score
-        print("", playerName1, "'s dice rolled to.......... "+str(player2Roll)+".")
+        print("", player2Name, "got number "+str(player2Roll)+".")
         time.sleep(2)
-
     if player1Score > player2Score:
-        print("Congrats!!", playerName, "wins the game")
+        print("Congrats!", player1Name, "win the game")
     elif (player1Score == player2Score):
-        print("The game is Tied")
+        print("It's Tie")
     else:
-        print("Congrats!!", playerName1, "wins the game")
+        print("Congrats!", player2Name, "win the game")
 
     if (player1Score > player2Score):
         return True
@@ -49,6 +46,6 @@ def playGameOfDice(playername):
         return False
 
 
-playerWins = playGameOfDice(playerName)
+playerWins = playGameOfDice(player1Name)
 if(playerWins == True):
     print("")
