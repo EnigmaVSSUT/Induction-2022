@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> ad02cf539e7ed863aa1765fbca39e622beae370d
 img {
     width: 100%;
     height: auto;
@@ -14,11 +10,7 @@ img {
     column-count: 4;
     max-width: 1000px;
     margin: 0 auto;
-<<<<<<< HEAD
-    /* background: #b6d068; */
-=======
     background: gainsboro;
->>>>>>> ad02cf539e7ed863aa1765fbca39e622beae370d
     padding: 30px;
 
 }
@@ -27,11 +19,7 @@ img {
     .container {
         column-count: 3;
     }
-<<<<<<< HEAD
     
-=======
-
->>>>>>> ad02cf539e7ed863aa1765fbca39e622beae370d
 }
 
 @media screen and (max-width: 640px) {
@@ -45,5 +33,11 @@ img {
     .container {
         column-count: 1;
     }
+
+}
+
+img:hover {
+    transform: scale(1.5);
+    transition: 1s;
 
 }

@@ -1,5 +1,2 @@
-<<<<<<< HEAD
 https://sambit32.github.io/anime/
-=======
-https://sambit16.github.io/moneyhiest/
->>>>>>> ad02cf539e7ed863aa1765fbca39e622beae370d
+
