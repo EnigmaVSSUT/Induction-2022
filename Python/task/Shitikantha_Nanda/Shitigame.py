@@ -1,49 +1,29 @@
 import random
-from random import randint
-import time
 
-playerName = input("Enter the name of player 1 ") 
-playerName1 = input("Enter the name of player 2 ") 
+p1 = 0
+p2 = 0
+g = int(input("Enter the points to win the game:\n"))
 
-def diceRoll(num_sides=6):
-    """Returns number between 1 and 6 (inclusive)"""
-    return random.randint(1,num_sides)
+while (p1 < g) and (p2 < g):
+    input("Player 1 - Roll")
+    e1 = int(random.randint(1, 6))
+    p1 = p1 + e1
+    print(e1)
+    if p1 > g:
+        p1 = p1 - g1
+    if p1 == g:
+        print("Congo Player 1 Wins!")
+        break
 
-def playGameOfDice(playername):
-    a = int(input("Enter a score to reach to win the game : "))
-    print("Hello,Welcome to game of dice! First to " ,a,"points wins!")
-    player1Score = 0
-    player2Score = 0
-    while player1Score != a and player2Score != a: 
-        print("The current score is: ",playerName, player1Score, "," ,playerName1 ,player2Score)
-        input("Press 'Enter' to roll.")
-        player1Roll = diceRoll()
-        if(player1Score+ player1Roll<=a) :
-          player1Score=player1Score+ player1Roll
-        else:
-           player1Score=player1Score
+    input("Player 2 - Roll!")
+    e2 = int(random.randint(1, 6))
+    p2 = p2 + e2
+    print(e2)
+    if p2 > g:
+        p2 = p2 - e2
+    if p2 == g:
+        print("Congo Player 2 Wins!")
+        break
 
-        print("",playerName,"'s dice rolled to.......... "+str(player1Roll)+".") 
-        time.sleep(2)
-        player2Roll = diceRoll()
-        if(player2Score+player2Roll<=a) :
-          player2Score=player2Score+ player2Roll
-        else:
-           player2Score=player2Score
-        print("",playerName1,"'s dice rolled to.......... "+str(player2Roll)+".")
-        time.sleep(2)
-
-    if player1Score > player2Score:
-        print("Congrats!!" ,playerName,"wins the game")
-    elif (player1Score == player2Score):
-        print("The game is Tied")
-    else :
-         print("Congrats!!" ,playerName1,"wins the game")
-
-    if (player1Score > player2Score):
-         return True
-    else:
-         return False
-playerWins = playGameOfDice(playerName)
-if(playerWins== True):
-  print("") 
+    print("Player 1 Points: ", p1)
+    print("Player 2 Points: ", p2)
