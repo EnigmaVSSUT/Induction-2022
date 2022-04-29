@@ -1,55 +1,36 @@
 import random
-print("Enter Player 1 name : ", end="")
-p1 = input()
-print("Enter player 2 name : ", end = "")
-p2 = input()
-print("Enter the target : ", end = "")
-tar = int(input())
-print("Press Enter Key to roll . . . .")
-print("#####################")
-print("#####################")
-
-sum1 = 0
-sum2 = 0
-counter = 1
-while(True):
-    if counter%2 != 0:
-        print(p1,"...roll  ", end = "")
-        k = input()
-        K1 = random.randrange(1,7)
-        print(p1,"Current toss : ",K1)
-        if sum1<tar and sum1+K1 <= tar:
-            sum1 = sum1 + K1
-        print(p1,"Total points: ", sum1)
-        print("---------------------")
+Player_2 = input("Player 1 name : ")
+Player_1 = input("Player 2 name : ")
+Destined_Number = int(input("Destined target : "))
+Total_Points_1 = 0
+Total_Points_2 = 0
+ChackTab = 1
+flag = True
+while(flag):
+    if ChackTab%2 == 0:
+        print(Player_2,"turn ", end = "")
+        passOn = input()
+        temp2 = random.randint(1,6)
+        print(Player_2,"Dice Threw :",temp2)
+        if Total_Points_2<Destined_Number and Total_Points_2+temp2<= Destined_Number:
+            Total_Points_2 = Total_Points_2 + temp2
+        print("Total points earned ", Total_Points_2,"\n")
+    else:
+        print(Player_1,"turn " ,end = "")
+        passOn = input()
+        temp1 = random.randint(1,6)
+        print(Player_1,"Dice threw : ",temp1)
+        if Total_Points_1<Destined_Number and Total_Points_1+temp1 <= Destined_Number:
+            Total_Points_1 = Total_Points_1 + temp1
+        print("Total points earned: ", Total_Points_1,"\n")
         
-    else:
-        print(p2,"...roll  ", end = "")
-        k = input()
-        K2 = random.randrange(1,7)
-        print(p2,"Current toss :",K2)
-        if sum2<tar and sum2+K2<= tar:
-            sum2 = sum2 + K2
-        print(p2,"Total points: ", sum2)
-        print("---------------------")
     
-    if sum1 == tar:
-        print("---------------------")
-        print("Player",p1,"Wins!")
-        print("Total Points : ", sum1)
-        print("Last Toss : ",K1)
-        print("---------------------")
-        print("---------------------")
+    if Total_Points_1 == Destined_Number:
+        print("Winner : ",Player_1)
         break
-    elif sum2==tar:
-        print("---------------------")
-        print("Player",p2,"Wins!")
-        print("Total Points : ", sum2)
-        print("Last Toss : ",K2)
-        print("---------------------")
-        print("---------------------")
+    elif Total_Points_2==Destined_Number:
+        print("Winner : ",Player_2)
         break
     else:
-        counter +=1
-        continue
+        ChackTab +=1
 
