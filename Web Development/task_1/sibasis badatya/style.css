@@ -1,0 +1,20 @@
+.container{
+   display: flex;
+   flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(235, 193, 135, 0.902);
+}
+.photo{
+   height: 250px;
+   width: 400 px;
+   padding: 5px;
+}
+.heading{
+   display: flex;
+   justify-content: center;
+   font-size:xx-large;
+   background-color:rgba(235, 193, 135, 0.902);
+   color: black;
+} 
