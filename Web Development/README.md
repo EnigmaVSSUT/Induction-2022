@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+# Induction-web
+web devlopment task
+=======
 
 # Web Development
 You must have come across hundreds of colorful and well-organized websites while surfing the Internet. Have you ever wondered how these websites are designed? Well, to know that you have to enter the world of Web Development. So, let’s begin.
@@ -55,3 +59,4 @@ Go through the video tutorials mentioned in the above links.Make sure that you g
 ## Regarding Tasks
 <hr>
 The information regarding the tasks has been specified in the respective folders. Make sure to follow the instructions and complete your tasks. Get started with your tasks and try to have a creative approach. Hope you will find this exciting. 🙌
+>>>>>>> ad02cf539e7ed863aa1765fbca39e622beae370d
