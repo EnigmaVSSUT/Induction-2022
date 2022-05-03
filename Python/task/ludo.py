@@ -1,3 +1,4 @@
+
 import random
 # t is the target for the game
 t = int(input("target is:-"))
