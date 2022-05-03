@@ -1,27 +1,30 @@
+
 import random
-goal =int(input("enter the goal"))
-Player1=0
-Player2=0
-while (Player1!=goal or Player2!=goal):
- print("Player 1 turn")
- input ("Enter=dice rolls")
- roll1=int(random.randint(1,6))
- print("player 1 rolled",roll1)
- Player1=Player1+roll1
- if Player1 == goal:
-  print("player 1 wins")
-  break
- if Player1>goal:
-  Player1-=roll1
- print("player 1 score is",Player1)
- print("Player 2 turn")
- input ("Enter=dice rolls")
- roll2=int(random.randint(1,6))
- print("player 2 rolled",roll2)
- Player2=Player2+roll2
- if Player2 == goal:
-  print("player 2 wins")
-  break
- if Player2>goal:
-  Player2-=roll2
- print("player 2 score is",Player2)
+# t is the target for the game
+t = int(input("target is:-"))
+ #s1,s2 are the scores of player1 and player2
+s1=0
+s2=0
+while (s1<t) and (s2<t):
+    #here two players rolling their dice alternatively and their score will be added to their previous score
+    input("player_1 press enter to roll the dice")
+    dice1=int(random.randint(1,6))
+    s1=s1+dice1
+    print(dice1)
+    input("Player_2 press enter to roll the dice")
+    dice2=int(random.randint(1,6))
+    dice2=s2+dice2
+    print(dice2)
+    #if score will exceed the target then recently generated score will be discarded
+    #winner will be declared only if player score is equal to target
+    if s1> t :
+        s1=s1-dice1
+    if s1==t :
+        print("Player_1 is the winner")
+        break
+
+    if s2>t :
+        s2=s2-dice2
+    if s2==t :
+        print("Player_2 is the winner")
+        break
